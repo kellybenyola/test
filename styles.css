@@ -1,0 +1,213 @@
+/* All Pages */
+
+body{
+  background-color: #FFFF;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+}
+thead{
+  background-color: #84bcff;
+}
+.caseHeader{
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: left;
+}
+.caseSub{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: left;
+
+
+}
+.court-image{
+  float: left;
+  padding-right: 40px;
+}
+.navbar{
+  background-color: #84bcff;
+}
+#logo-header{
+padding: 2% 0;
+}
+
+
+
+
+/* index page */
+.homeFooter{
+  margin: auto;
+    padding: 2% 0;
+    text-align: center;
+}
+.homeBody{
+  font-size: 1.1rem;
+  font-style: italic;
+  padding-top: 2%;
+}
+.homeHeader{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.5%;
+}
+.homeList{
+  line-height: 2;
+  padding: 1% 0;
+  text-align: justify;
+
+}
+.options1{
+  font-size: 1.2rem;
+  margin: 30% auto auto;
+  text-align: center;
+  padding-right: 5px;
+}
+.options2{
+  font-size: 1.2rem;
+  margin: 20% auto auto;
+  text-align: center;
+  padding-right: 5px;
+}
+.option-header{
+  padding: 0 50%;
+
+}
+.options-body{
+    text-align: left;
+    padding-left: 2%;
+}
+.optionsTable{
+  margin: auto;
+  width:75%;
+}
+
+/*Product Page*/
+
+.productHeader{
+
+}
+.productTitle{
+
+}
+.productBody{
+
+}
+.productList{
+
+}
+
+/*Documents Page*/
+.docBody{
+  font-size: 1rem;
+  padding-top: 1.5%;
+}
+.docHeader{
+  text-align: left;
+  margin: auto auto auto 7%;
+  padding: 1% 2% 0;
+}
+.docTitle{
+  font-size: 2rem;
+  font-weight: 600;
+
+}
+.tableHeadings{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: auto auto auto 6%;
+  padding: 4% 4% 2%;
+  text-align: left;
+}
+.keyDocumentsTable{
+  margin:auto;
+  text-align: left;
+  width: 80%;
+}
+.addDocDiv{
+    padding-bottom: 5%;
+}
+.addDocumentsTable{
+  margin: auto;
+
+  text-align: left;
+  width: 80%;
+}
+.docDescript{
+  padding-left: 3%;
+}
+
+
+/*Contact Page*/
+.contact-head{
+  text-align: left;
+}
+
+.info{
+  padding: 15px 0 0 100px;
+}
+ .contact-bottom{
+   text-align: left;
+ }
+
+
+/*FAQs Page*/
+.faqs-head{
+
+  text-align: left;
+
+}
+
+.accordion-body{
+  text-align: left;
+}
+
+
+/*Opt-Out Page*/
+/*might be best for sizing large screen*/
+.opt-heading{
+  text-align: left;
+  padding: 1% 0 1% 30%;
+}
+#optOutForm{
+  text-align: left;
+}
+.optOutForm{
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-left: 17%;
+  padding: 2% 2% 10%;
+
+}
+.optOutLabel{
+  padding: 1% 2%;
+}
+.optOutInput{
+  padding-right: 5%;
+}
+.submit-button{
+  background-color: #84bcff;
+}
+.submit-button:hover{
+background-color: #84bcff;
+color: #fff;
+}
+
+
+
+/*Media Settings*/
+
+@media(max-width:765px) {
+  .caseHeader{
+    font-size: 1.3rem;
+    padding-top: 5%;
+  }
+  .caseSub{
+    font-size: 1rem;
+  }
+}
