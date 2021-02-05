@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is the website for notice of lawsuit: Hawkins v. Kroger Co.,
+  Case No. 3:15-cv-2320-JM-AHG U.S. District Court for the Southern District of California. ">
   <!-- CSS Styling -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -17,15 +19,13 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
-  <title>Kroger Bread Crumbs Litigation Class Action Settlement</title>
+  <title>Kroger Bread Crumbs Class Action Notice</title>
 </head>
 <body>
 
-    <!-- Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,19 +50,15 @@
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-      </form>
     </div>
   </div>
-</nav>
+  </nav>
 
 <!-- Case Header-->
-<div class="container col-lg-6" id="logo-header">
+<div class="container-fluid col-lg-6" id="logo-header">
   <div class="row">
     <div class="">
-      <img class="court-image" src="court.png" alt="U.S. District Court for the Southern District of California">
+      <img class="court-image" src="images/court.png" alt="U.S. District Court for the Southern District of California">
     <!-- </div>
     <div class="col-lg-6" id="caseHeader"> -->
       <h1 class="caseHeader">Hawkins v. Kroger Co.,</h1>
@@ -74,20 +70,23 @@
 
 
 <!-- heading & Description -->
-<div class="row opt-heading">
-  <div class="col-lg-6">
-    <h1>Excluding Yourself from the Class</h1>
-    <p>If you do not want to receive the settlement payment and wish to preserve the right you may have to sue about
-      Cobra’s labeling on your own, then you must take affirmative steps to opt out of the settlement. To exclude
-      yourself from the settlement class, you must either fill out the online form below or make a written request for
-      exclusion.</p>
+<div class="container-fluid optContainer">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="optTitle">Excluding Yourself from the Class</h1>
+      <p class="optbody">If you do not want to receive the settlement payment and wish to preserve the right you may have to sue about
+        Cobra’s labeling on your own, then you must take affirmative steps to opt out of the settlement. To exclude
+        yourself from the settlement class, you must either fill out the online form below or make a written request for
+        exclusion.</p>
+    </div>
   </div>
 </div>
 
 
+
 <!-- Opt Out Form -->
 
-<div class="container" id="optOutForm">
+<div class="container-fluid formContainer" id="optOutForm">
   <div class="row">
     <div class="optOutForm col-lg-12">
       <form action="https://formspree.io/f/xaylvknl" method="POST">
@@ -112,7 +111,7 @@
          </label>
         <!-- your other form fields go here -->
 
-        <button type="submit" class="submit-button btn btn-lg">Submit</button>
+        <button type="submit" class="optOutLabel submit-button btn btn-lg">Submit</button>
 
       </form>
     </div>

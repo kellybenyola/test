@@ -4,31 +4,33 @@ body{
   background-color: #FFFF;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-
 }
 thead{
-  background-color: #84bcff;
+  background-color: #4f81bd;
+  color: #ffff;
 }
+
+/*navbar styles*/
+.navbar{
+  background-color: #4f81bd;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1% 12% 1% 1%;
+}
+/*page header styles*/
 .caseHeader{
-  font-family: font-family: 'Open Sans', sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-align: left;
 }
 .caseSub{
-  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: left;
-
-
 }
 .court-image{
   float: left;
-  padding-right: 40px;
-}
-.navbar{
-  background-color: #84bcff;
+  padding: 0 3%;
 }
 #logo-header{
 padding: 2% 0;
@@ -38,176 +40,307 @@ padding: 2% 0;
 
 
 /* index page */
-.homeFooter{
+.homeContainer{
+  line-height: 2;
   margin: auto;
-    padding: 2% 0;
-    text-align: center;
+  padding: 2% 26% 0;
+  text-align: center;
+}
+.homeTitle{
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 0.5%;
 }
 .homeBody{
   font-size: 1.1rem;
   font-style: italic;
-  padding-top: 2%;
-}
-.homeHeader{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
   font-weight: 600;
-  text-align: center;
-  padding-top: 0.5%;
+  padding-top: 2%;
 }
 .homeList{
   line-height: 2;
-  padding: 1% 0;
+  padding: 1%;
   text-align: justify;
-
 }
-.options1{
-  font-size: 1.2rem;
-  margin: 30% auto auto;
+.listItem{
+  padding-bottom: 1.5%;
+}
+.optionTag{
+  font-style: italic;
+  padding-top: 0.5%;
   text-align: center;
-  padding-right: 5px;
 }
-.options2{
-  font-size: 1.2rem;
-  margin: 20% auto auto;
-  text-align: center;
-  padding-right: 5px;
-}
-.option-header{
-  padding: 0 50%;
-
-}
-.options-body{
-    text-align: left;
-    padding-left: 2%;
-}
-.optionsTable{
+/*options table styles*/
+.optionsContainer{
   margin: auto;
-  width:75%;
+  padding: 1% 26%;
 }
+.options{
+  font-size: 1rem;
+  margin: 40% auto auto;
+  text-align: left;
+  padding-right: 5px;
+}
+
+.options-body{
+    text-align: justify;
+    padding: 1%;
+}
+
+/*footer styles*/
+.homeFooter{
+  margin: auto;
+  padding: 3% 0;
+  text-align: center;
+}
+
+
+
+
+
 
 /*Product Page*/
-
-.productHeader{
-
-}
-.productTitle{
-
+.productContainer{
+  line-height: 2;
+  margin: auto;
+  padding: 2% 26%;
+  text-align: left;
 }
 .productBody{
-
+  font-size: 1.2rem;
+  padding-top: 2%;
+  text-align: justify;
+}
+.productTitle{
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .productList{
-
+  padding-bottom: 0;
 }
+
+.imageContainer{
+  padding: 0 5% 5%;
+  width: 80%;
+  margin: auto;
+}
+.productImg{
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+
 
 /*Documents Page*/
-.docBody{
-  font-size: 1rem;
-  padding-top: 1.5%;
-}
-.docHeader{
+.docContainer{
+  line-height: 2;
+  margin: auto;
+  padding: 2% 26%;
   text-align: left;
-  margin: auto auto auto 7%;
-  padding: 1% 2% 0;
+}
+.docBody{
+  font-size: 1.2rem;
+  padding-top: 1%;
+
 }
 .docTitle{
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
 
 }
 .tableHeadings{
   font-size: 1.5rem;
   font-weight: 700;
   margin: auto auto auto 6%;
-  padding: 4% 4% 2%;
+  padding: 3% 14%;
   text-align: left;
 }
 .keyDocumentsTable{
   margin:auto;
   text-align: left;
-  width: 80%;
+  width: 60%;
 }
 .addDocDiv{
     padding-bottom: 5%;
 }
 .addDocumentsTable{
   margin: auto;
-
   text-align: left;
-  width: 80%;
+  width: 60%;
 }
 .docDescript{
   padding-left: 3%;
 }
-
-
-/*Contact Page*/
-.contact-head{
-  text-align: left;
+.appealDocs{
+  text-align: center;
 }
 
-.info{
-  padding: 15px 0 0 100px;
-}
- .contact-bottom{
-   text-align: left;
- }
-
-
-/*FAQs Page*/
-.faqs-head{
-
-  text-align: left;
-
-}
-
-.accordion-body{
-  text-align: left;
-}
 
 
 /*Opt-Out Page*/
-/*might be best for sizing large screen*/
-.opt-heading{
+.optContainer{
+  line-height: 2;
+  margin: auto;
+  padding: 2% 26%;
   text-align: left;
-  padding: 1% 0 1% 30%;
 }
-#optOutForm{
-  text-align: left;
+.optTitle{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.optbody{
+  font-size: 1.2rem;
+  padding-top: 2%;
+  text-align: justify;
+}
+/*opt-out form styling*/
+.formContainer{
+  margin: auto;
+  padding: 2% 26% 5%;;
 }
 .optOutForm{
   font-size: 0.9rem;
   font-weight: bold;
   line-height: 2;
-  margin-left: 17%;
-  padding: 2% 2% 10%;
-
+  text-align: justify;
 }
 .optOutLabel{
-  padding: 1% 2%;
-}
-.optOutInput{
-  padding-right: 5%;
+  padding-bottom: 2%;
 }
 .submit-button{
-  background-color: #84bcff;
+  background-color: #4f81bd;
+  color: #fff;
 }
 .submit-button:hover{
-background-color: #84bcff;
-color: #fff;
+background-color: #4f81bd;
+color: #000;
 }
 
 
 
-/*Media Settings*/
+/*FAQs Page*/
+.faqsContainer{
+  line-height: 2;
+  margin: auto;
+  padding: 2% 26%;
+  text-align: left;
+}
+.faqsTitle{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.faqTable{
+    text-align: justify;
+    padding: 2% 26% 5%;
+}
+
+
+
+
+/*Contact Page*/
+.contactContainer{
+  line-height: 2;
+  margin: auto;
+  padding: 2% 26%;
+  text-align: left;
+}
+.contactTitle{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.contactBody{
+  font-size: 1.2rem;
+  padding-top: 3%;
+}
+
+.contactTable{
+    margin: auto;
+    padding: 0 26% 1%;
+
+}
+.info{
+  padding: 15px 0 0 100px;
+  text-align: justify;
+}
+ .contactBottom{
+   margin: auto;
+   padding: 2% 26% 5%;;
+ }
+ .bottomBody{
+   text-align: justify;
+ }
+
+
+/*Media Styles*/
+@media (max-width: 996px){
+
+  .opt-heading{
+    padding: 5% 12% 1% 18%;
+    text-align: justify;
+  }
+
+  .optOutForm{
+    margin-right: 0;
+    padding: 2% 12% 10% 18%;
+    text-align: justify;
+
+  }
+  .faqsContainer{
+    padding: 2% 20%;
+  }
+  .faqTable{
+      text-align: justify;
+      padding: 2% 20% 5%;
+
+
+  }
+}
+
+
+@media (max-width: 1012px){
+
+}
 
 @media(max-width:765px) {
+
   .caseHeader{
     font-size: 1.3rem;
     padding-top: 5%;
   }
   .caseSub{
     font-size: 1rem;
+  }
+  .contact-head{
+    text-align: justify;
+    padding: 1% 5%;
+  }
+  .contact-bottom{
+    padding: 3% 5%;
+    text-align: justify;
+  }
+  .faqsContainer{
+    padding: 2% 10%;
+  }
+  .faqTable{
+      text-align: justify;
+      padding: 2% 10% 5%;
+  }
+  .homeContainer{
+    padding: 2% 10% 0;
+  }
+  .optionsContainer{
+    padding: 2% 10%;
+  }
+  .homeFooter{
+    padding: 2% 10% 5%;
+  }
+}
+
+@media(min-width: 1200px){
+  .imageContainer{
+
+    width: 60%;
+    margin: auto;
   }
 }
