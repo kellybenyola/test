@@ -133,6 +133,7 @@ padding: 2% 0;
 
 
 /*Documents Page*/
+
 .docContainer{
   line-height: 2;
   margin: auto;
@@ -144,6 +145,9 @@ padding: 2% 0;
   padding-top: 1%;
 
 }
+.docTable{
+    padding: 2% 26%;
+}
 .docTitle{
   font-size: 2.5rem;
   font-weight: 500;
@@ -152,22 +156,18 @@ padding: 2% 0;
 .tableHeadings{
   font-size: 1.5rem;
   font-weight: 700;
-  margin: auto auto auto 6%;
-  padding: 3% 14%;
+  margin: auto;
+  padding: 3% 0;
   text-align: left;
 }
 .keyDocumentsTable{
-  margin:auto;
+  margin: auto;
   text-align: left;
-  width: 60%;
 }
-.addDocDiv{
-    padding-bottom: 5%;
-}
+
 .addDocumentsTable{
   margin: auto;
   text-align: left;
-  width: 60%;
 }
 .docDescript{
   padding-left: 3%;
@@ -175,7 +175,9 @@ padding: 2% 0;
 .appealDocs{
   text-align: center;
 }
-
+#addTable{
+  padding-bottom:  5%;
+}
 
 
 /*Opt-Out Page*/
@@ -273,33 +275,43 @@ color: #000;
 
 
 /*Media Styles*/
-@media (max-width: 996px){
 
-  .opt-heading{
-    padding: 5% 12% 1% 18%;
+
+@media (max-width: 720px){
+  /*product mobile settings*/
+  .productContainer{
+    padding: 2% 10%;
+  }
+  /*document mobile settings*/
+  .docContainer{
+    padding: 2% 10%;
+  }
+  .docTable{
+      padding: 2% 10%;
+  }
+  /*opt out mobile settings*/
+  .optContainer{
+    padding: 2% 10%;
+  }
+  .formContainer{
+    padding: 2% 10% 5%;;
+  }
+  /*contact mobile settings*/
+  .contactContainer{
+    padding: 2% 10%;
+  }
+  .contactTable{
+      padding: 0 16% 2%;
+
+  }
+  .info{
+    padding: 15px 0 0 100px;
     text-align: justify;
   }
-
-  .optOutForm{
-    margin-right: 0;
-    padding: 2% 12% 10% 18%;
-    text-align: justify;
-
-  }
-  .faqsContainer{
-    padding: 2% 20%;
-  }
-  .faqTable{
-      text-align: justify;
-      padding: 2% 20% 5%;
-
-
-  }
-}
-
-
-@media (max-width: 1012px){
-
+   .contactBottom{
+     margin: auto;
+     padding: 2% 10% 5%;;
+   }
 }
 
 @media(max-width:765px) {
@@ -336,6 +348,31 @@ color: #000;
     padding: 2% 10% 5%;
   }
 }
+
+@media (max-width: 996px){
+
+  .opt-heading{
+    padding: 5% 12% 1% 18%;
+    text-align: justify;
+  }
+
+  .optOutForm{
+    margin-right: 0;
+    padding: 2% 12% 10% 18%;
+    text-align: justify;
+
+  }
+  .faqsContainer{
+    padding: 2% 20%;
+  }
+  .faqTable{
+      text-align: justify;
+      padding: 2% 20% 5%;
+
+
+  }
+}
+
 
 @media(min-width: 1200px){
   .imageContainer{
